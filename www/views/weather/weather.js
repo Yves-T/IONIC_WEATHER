@@ -17,7 +17,6 @@
 
         $http.get('http://ionic.deontwikkelaar.be/weather/', params)
           .success(function (forecast) {
-            debugger;
             $scope.forecast = forecast;
           })
           .error(function (err) {
